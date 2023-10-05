@@ -1,0 +1,241 @@
+/* CSS PARA MENU */
+.boton {
+    background-color: #000000;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #2a2e2a;
+}
+
+.boton:active {
+    background-color: #494c49;
+}
+
+.imagen2 {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+/******************************* CSS PARA CONTACTO ****************************************/
+.sinborde {
+    border: none;
+    background-color: inherit;
+    border-bottom: 1px solid !important;
+    outline: none;
+    width: max-content;
+}
+
+.p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-family: 'Playfair Display', serif;
+}
+
+.table {
+    width: 60%;
+    padding-top: 20px;
+}
+
+.select {
+    width: 40%;
+}
+
+.coment {
+    width: 300px;
+    height: 80px;
+    border-radius: 3%;
+    border-color: grey;
+}
+
+.img {
+    padding-top: 5px;
+}
+
+.img2 {
+
+    padding-top: 50px;
+    padding-left: 250px;
+    padding-bottom: 50px;
+    padding-right: 50px;
+    width: 300px;
+    height: 300px;
+}
+
+.cols {
+    display: flex;
+}
+
+.cols div {
+    flex: 1;
+}
+
+.cols1 {
+    align-items: center;
+}
+
+.col2 {
+    height: 400px;
+    background-color: #9a753a;
+    margin: auto;
+    width: 600px;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: 'Comfortaa', cursive;
+}
+
+div {
+    border-radius: 30px;
+}
+
+
+
+/*************************** CSS PARA ACERCA DE MI ******************************/
+.body {
+    background-color: #FBDFC1;
+}
+
+.imagen {
+    border-radius: 150px;
+    width: 300px;
+    height: 300px;
+}
+
+.tex {
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 3rem;
+    width: 554px;
+    margin: 60px;
+    font-family: 'Nosifer';
+    word-wrap: break-word;
+
+}
+
+.table {
+    padding: 20px;
+    border-color: red;
+}
+
+.cuadro {
+    height: 400px;
+    background-color: #9a753a;
+    margin: auto;
+    width: 600px;
+    color: white;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 25px;
+}
+
+.gif {
+    height: 400px;
+    border-radius: 10px;
+}
+
+.gif2 {
+    height: 400px;
+    width: 600px;
+    border-radius: 10px;
+}
+
+/* CSS DE CV */
+.cv {
+    padding: 5px;
+    width: 50%;
+    height: 70%;
+}
+
+.p2 {
+    font-size: 25px;
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+    font-size: 35px;
+}
+
+.bordes {
+    border: 1px;
+    border-radius: 5px;
+    border-color: #000000;
+}
+
+.redes {
+    width: 100px;
+    height: 100px;
+}
+
+.fb {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(rgb(0, 52, 241), rgb(56, 86, 255));
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    padding-left: 40px;
+}
+
+.tw {
+    font-size: 60px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 2px;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(27, 27, 27));
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    padding-left: 40px;
+}
+
+.ig {
+    font-size: 60px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 2px;
+    padding-left: 40px;
+    background: -webkit-linear-gradient(rgb(97, 34, 255), red);
+    /* -webkit-background-clip: text; */
+    -webkit-text-fill-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+/* CSS DE PORTAFOLIO */
+.pro{
+    width: 580px;
+    height: 400px;
+}
+
+/* CSS DE GALERIA */
+.imgver{
+    width: 75%;
+    height: 80%;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.imghor{
+    width: 90%;
+    height: 80%;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.txgal{
+    font-size: 30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
